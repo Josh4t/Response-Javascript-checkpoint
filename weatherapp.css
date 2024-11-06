@@ -1,0 +1,48 @@
+/* styling of the weather-appwea*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #d0e8f2;
+  }
+  
+  .weather-app {
+    text-align: center;
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .search-container {
+    margin-bottom: 1rem;
+  }
+  
+  #city-input {
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .weather-info {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+  }
+  
